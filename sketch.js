@@ -1,27 +1,20 @@
-let canvas_w=1440;
-let canvas_h=720;
 
 function preload() {
-  img_1 = loadImage("img/Thisis40sketch.png");
-  img_2 = loadImage("img/Details.png");
-}
+  img_1 = loadImage("img/IMG_2884.jpeg");
+  
 
+}
 
 function setup() {
-  let myCanvas = createCanvas(1440, 720*2);
+  let myCanvas = createCanvas(windowWidth, windowHeight);
   myCanvas.parent("main_section");
-  
-  fill('black');
-  image(img_1, 0,0);
-  
-  fill('black');
-  image(img_2, 0,720);
+  background('yellow');
 
 }
 
-  function draw() {
-    stroke("black");
-   
-    
-}
+function draw() {
+  background('green');
+  image(img_1, 0,windowHeight/4,300,500);  
 
+
+}  
