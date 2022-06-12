@@ -1,5 +1,10 @@
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1.5rem;
+.font-asset {
+    font-family: 'Asset', 'cursive';
+}
+
+.font-seymour {
+    font-family: 'Seymour One', 'sans-serif';    
+}
+.font-sigmar {
+    font-family: 'Sigmar One', cursive;
 }
